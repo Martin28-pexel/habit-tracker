@@ -1,0 +1,32 @@
+Create a simple mobile app with the following features focused on tracking daily progress for a user-defined task or habit:
+
+1.  **User Task/Habit Definition:**
+    * Allow the user to input a short description of the task or habit they want to track (e.g., "Exercise for 30 minutes," "Write 500 words," "Practice Spanish").
+    * Store this user-defined task/habit.
+
+2.  **Daily Progress Input:**
+    * Present the user with a clear, visual calendar view (e.g., a monthly grid).
+    * For the current day, and potentially previous days, display a prompt or button asking: "Did you complete your task/habit today?"
+    * Provide two clear, easily tappable options: "Yes" and "No".
+
+3.  **Progress Marking:**
+    * When the user selects "Yes" for a given day, visually mark that day on the calendar (e.g., with an "X", a checkmark, or a colored highlight).
+    * When the user selects "No", the day remains unmarked or is marked differently (optional, but could provide a visual contrast).
+
+4.  **Visual Progress Overview:**
+    * The calendar view should clearly show the pattern of completed days over time, allowing the user to easily see their streaks and overall progress.
+    * (Optional Enhancement for later iterations: Display a simple count of consecutive successful days or the total number of successful days in the current month/week.)
+
+5.  **Daily Reminder (Optional but Recommended):**
+    * Allow the user to set a daily reminder (time) to prompt them to log their progress for the day. This reminder should trigger a notification.
+
+6.  **Simplicity and Ease of Use:**
+    * The app should have a clean, intuitive interface with minimal clutter. The focus should be on quickly and easily logging daily progress.
+
+**Technical Considerations (Implicit for the Builder):**
+
+* The app should store the user's task/habit and their daily progress data persistently.
+* The calendar view should dynamically update based on the stored data.
+* The reminder functionality should integrate with the device's notification system.
+
+**Primary Goal:** To create a visually motivating tool that reinforces daily progress by allowing users to easily track and see their consistent effort towards a chosen task or habit.
